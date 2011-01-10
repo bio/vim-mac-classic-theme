@@ -36,7 +36,7 @@ let g:colors_name = "mac_classic"
 " #C6DEFF - VL.BLUE Visual, Current StatusLine & AutoComplete selection
 " #808080 - Line numbers
 " #CFCFCF - VerticalSplit separator
-" #DFDFDF - Invisible Characters
+" #BFBFBF - Invisible Characters
 " #EFEFEF - LineNumber & Non-Current StatusLine
 " #F0F6FF - CursorLine & CursorColumn
 " #FFFFFF - WHITE
@@ -90,8 +90,8 @@ hi Todo  guifg=#0066FF ctermfg=27 gui=inverse,bold,italic
 hi Underlined  gui=underline
 
 " Invisible character colors
-hi NonText  guifg=#DFDFDF ctermfg=253 guibg=#FFFFFF ctermbg=15
-hi SpecialKey  guifg=#DFDFDF ctermfg=253 guibg=#FFFFFF ctermbg=15
+hi NonText  guifg=#BFBFBF ctermfg=253 guibg=#FFFFFF ctermbg=15
+hi SpecialKey  guifg=#BFBFBF ctermfg=253 guibg=#FFFFFF ctermbg=15
 
 " Diff styles {{{1
 hi diffAdded guifg=#007B22 guibg=#FFFFFF ctermfg=28 ctermbg=15
